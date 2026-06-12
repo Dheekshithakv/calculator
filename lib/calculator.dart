@@ -7,9 +7,9 @@ class Calculator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Future.delayed(Duration(seconds: 3),() {
+    Future.delayed(Duration(seconds: 3),() { 
       Navigator.push(context, MaterialPageRoute(builder:(context) => Home(),));
     },);
-    return Scaffold(body: Center(child: Lottie.asset("assets/splash.json"),),);
+    return Scaffold(body: Center(child: Lottie.asset("assets/splash1.json"),),);
   }
-}
+} 
